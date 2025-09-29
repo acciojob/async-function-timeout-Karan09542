@@ -14,6 +14,5 @@ btn.addEventListener("click", async ()=> {
 	await delayFn(delay);
 
 	textInput.value = "";
-	output.innerHTML = "";
 	output.innerHTML = message;
 })
